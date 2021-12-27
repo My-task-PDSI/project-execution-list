@@ -67,11 +67,11 @@ retorna:
 
 ```json
 {
-    /*pode ser todas as info ou somente id+titulo*/
-    'grupos': [
-        {...info_grupo_1},
-        {...info_grupo_2},
-        {...info_grupo_N}
+    
+    "grupos": [
+        "{...info_grupo_1}",
+        "{...info_grupo_2}",
+        "{...info_grupo_N}"
     ],
 }
 ```
@@ -89,11 +89,11 @@ retorna:
 
 ```json
 {
-    'grupo': {...info_grupo},
-    'tarefas': [
-        {...info_tarefa_1},
-        {...info_tarefa_2},
-        {...info_tarefa_N}
+    "grupo": "{...info_grupo}",
+    "tarefas": [
+        "{...info_tarefa_1}",
+        "{...info_tarefa_2}",
+        "{...info_tarefa_N}"
     ],
 }
 ```
@@ -108,9 +108,9 @@ recebe:
 
 ```json
 {
-    'body': {
-        'id_grupo':'id',
-        'tarefa':{...info_tarefa},
+    "body": {
+        "id_grupo":"id",
+        "tarefa":"{...info_tarefa}",
     }
 }
 ```
@@ -118,11 +118,10 @@ retorna:
 
 ```json
 {
-    /*dados da tarefa adicionada + id*/
-    'tarefa': {...info_tarefa_criada},
-    /*opcional*/
-    'error': {
-        'mensagem':'mensagem',
+    
+    "tarefa": "{...info_tarefa_criada}",
+    "error": {
+        "mensagem":"mensagem",
     },
 }
 ```
