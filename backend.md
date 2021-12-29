@@ -1,7 +1,7 @@
 
 # Lista de funcionalidades e tarefas a serem completadas pelo backend
 
-## Sumario
+## <a name="sumario"><a> Sumario
 
 + [**Configuração inicial server**](#Configuraçãoinicialserver)
 + [**Configuração inicial database**](#Configuraçãoinicialdatabase)
@@ -20,39 +20,47 @@
 ## BACKEND
 
 ## <a name="Configuraçãoinicialserver"><a> Configuração inicial server 
+##### [voltar ao topo](#sumario)
 + [ ] Criar o servidor( apenas o basico para execução)
 + [ ] Criar rotas para teste de funcionamento
 
 ## <a name="Configuraçãoinicialdatabase"> Configuração inicial database
+##### [voltar ao topo](#sumario)
 + [ ] Criar banco de dados
 + [ ] Conectar banco de dados
 
 ## <a name="Criartabelas"> Criar tabelas
+##### [voltar ao topo](#sumario)
 - [ ] Criar tabela Usuario
 - [ ] Criar tabela Grupo de tarefa
 - [ ] Criar tabela Tarefa
 - [ ] Criar tabela Notificação( opcional , pode ficar por ultimo)
 
 ## <a name="Criaçãodasrotasiniciais"> Criação das rotas iniciais
+##### [voltar ao topo](#sumario)
 - [ ] Criar rota para manipulção de usuarios
 - [ ] Criar rota para manipulção de grupos de tarefas
 - [ ] Criar rota para manipulção de tarefas
 - [ ] Criar rota para manipulção de notificação
 
 ## <a name="Rotausuario"> Rota usuario
+##### [voltar ao topo](#sumario)
 - [ ] criar crud para usuario
 
 ## <a name="RotaGrupodetarefa"> Rota Grupo de tarefa
+##### [voltar ao topo](#sumario)
 - [ ] criar crud para grupo de tarefas
 - [ ] criar rota que devolve todos os grupos de um usuario
 - [ ] criar rota que devolve um grupo e todas suas tarefas
 
 ## <a name="RotaTarefa"> Rota Tarefa
+##### [voltar ao topo](#sumario)
 - [ ] criar crud para tarefa
 
 # <a name="Formatodedevoluçãoparaalgumasrotas"> Formato de devolução para algumas rotas
 
 ## <a name="rotaGETgrupotarefasall"> rota GET grupo-tarefas/all/
+##### [voltar ao topo](#sumario)
 recebe:
 
 **params**:
@@ -75,6 +83,7 @@ retorna:
 ```
 
 ## <a name="rotaGETgrupotarefasid"> rota GET grupo-tarefas/:id/
+##### [voltar ao topo](#sumario)
 recebe:
 
 **params**:
@@ -97,6 +106,7 @@ retorna:
 ```
 
 ## <a name="rotaPOSTtarefasadd"> rota POST tarefas/add/
+##### [voltar ao topo](#sumario)
 recebe:
 
 **params**:
