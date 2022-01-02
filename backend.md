@@ -21,20 +21,20 @@
 
 ## <a name="Configuraçãoinicialserver"><a> Configuração inicial server 
 ##### [voltar ao topo](#sumario)
-+ [ ] Criar o servidor( apenas o basico para execução)
++ [X] Criar o servidor( apenas o basico para execução)
 + [ ] Criar rotas para teste de funcionamento
 
 ## <a name="Configuraçãoinicialdatabase"> Configuração inicial database
 ##### [voltar ao topo](#sumario)
-+ [ ] Criar banco de dados
-+ [ ] Conectar banco de dados
++ [X] Criar banco de dados
++ [X] Conectar banco de dados
 
 ## <a name="Criartabelas"> Criar tabelas
 ##### [voltar ao topo](#sumario)
-- [ ] Criar tabela Usuario
-- [ ] Criar tabela Grupo de tarefa
-- [ ] Criar tabela Tarefa
-- [ ] Criar tabela Notificação( opcional , pode ficar por ultimo)
+- [X] Criar tabela Usuario
+- [X] Criar tabela Grupo de tarefa
+- [X] Criar tabela Tarefa
+- [X] Criar tabela Notificação( opcional , pode ficar por ultimo)
 
 ## <a name="Criaçãodasrotasiniciais"> Criação das rotas iniciais
 ##### [voltar ao topo](#sumario)
