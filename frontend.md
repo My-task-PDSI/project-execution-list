@@ -26,7 +26,7 @@
 ##### [voltar ao topo](#sumario)
 - [ ] Criar rota para manipulção de usuarios
 - [x] Criar rota para manipulção de grupos de tarefas
-- [ ] Criar rota para manipulção de tarefas
+- [x] Criar rota para manipulção de tarefas
 - [ ] Criar rota para manipulção de notificação
 
 ## <a name="Login"> Login
@@ -37,13 +37,13 @@
 
 ## <a name="Grupo"> Grupo de tarefa
 ##### [voltar ao topo](#sumario)
-- [ ] criar tela de listagem de grupo de tarefas
-- [ ] criar tela de crud de grupo de tarefas
-- [ ] implementar a listagem de tarefas na tela anterior
+- [x] criar tela de listagem de grupo de tarefas
+- [x] criar tela de crud de grupo de tarefas
+- [x] implementar a listagem de tarefas na tela anterior
 
 ## <a name="Tarefa"> Tarefa
 ##### [voltar ao topo](#sumario)
-- [ ] criar card para tarefa
+- [x] criar card para tarefa
 - [ ] cada card pode ser responsivo contendo o proprio sistema
 de crud nele ou pode criar uma tela apenas para edicao dessa tarefa
 
