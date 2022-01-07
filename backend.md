@@ -45,7 +45,7 @@
 
 ## <a name="Rotausuario"> Rota usuario
 ##### [voltar ao topo](#sumario)
-- [ ] criar crud para usuario
+- [X] criar crud para usuario
 
 ## <a name="RotaGrupodetarefa"> Rota Grupo de tarefa
 ##### [voltar ao topo](#sumario)
