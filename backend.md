@@ -11,10 +11,10 @@
 + [**Rota Grupo de tarefa**](#RotaGrupodetarefa)
 + [**Rota Tarefa**](#RotaTarefa)
 + [**Formato de devolução para algumas rotas**](#Formatodedevoluçãoparaalgumasrotas)
-  - [**rota GET grupo-tarefas/all/**](#rotaGETgrupotarefasall)
-  - [**rota GET grupo-tarefas/:id/**](#rotaGETgrupotarefasid)
+  - [**rota GET task-groups/all/**](#rotaGETgrupotarefasall)
+  - [**rota GET task-groups/:id/**](#rotaGETgrupotarefasid)
   - [**rota POST tarefas/add/**](#rotaPOSTtarefasadd)
-  - [**rota GET grupo-tarefas/all/**](#rotaGETgrupotarefasall)
+  - [**rota GET task-groups/all/**](#rotaGETgrupotarefasall)
 
 
 ## BACKEND
@@ -38,9 +38,9 @@
 
 ## <a name="Criaçãodasrotasiniciais"> Criação das rotas iniciais
 ##### [voltar ao topo](#sumario)
-- [ ] Criar rota para manipulção de usuarios
-- [ ] Criar rota para manipulção de grupos de tarefas
-- [ ] Criar rota para manipulção de tarefas
+- [x] Criar rota para manipulção de usuarios
+- [x] Criar rota para manipulção de grupos de tarefas
+- [x] Criar rota para manipulção de tarefas
 - [ ] Criar rota para manipulção de notificação
 
 ## <a name="Rotausuario"> Rota usuario
@@ -49,17 +49,17 @@
 
 ## <a name="RotaGrupodetarefa"> Rota Grupo de tarefa
 ##### [voltar ao topo](#sumario)
-- [ ] criar crud para grupo de tarefas
+- [x] criar crud para grupo de tarefas
 - [ ] criar rota que devolve todos os grupos de um usuario
 - [ ] criar rota que devolve um grupo e todas suas tarefas
 
 ## <a name="RotaTarefa"> Rota Tarefa
 ##### [voltar ao topo](#sumario)
-- [ ] criar crud para tarefa
+- [x] criar crud para tarefa
 
 # <a name="Formatodedevoluçãoparaalgumasrotas"> Formato de devolução para algumas rotas
 
-## <a name="rotaGETgrupotarefasall"> rota GET grupo-tarefas/all/
+## <a name="rotaGETgrupotarefasall"> rota GET task-groups/all/
 ##### [voltar ao topo](#sumario)
 recebe:
 
@@ -82,7 +82,7 @@ retorna:
 }
 ```
 
-## <a name="rotaGETgrupotarefasid"> rota GET grupo-tarefas/:id/
+## <a name="rotaGETgrupotarefasid"> rota GET task-groups/:id/
 ##### [voltar ao topo](#sumario)
 recebe:
 

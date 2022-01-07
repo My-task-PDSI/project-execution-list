@@ -44,28 +44,28 @@
 ## <a name="Tarefa"> Tarefa
 ##### [voltar ao topo](#sumario)
 - [x] criar card para tarefa
-- [ ] cada card pode ser responsivo contendo o proprio sistema
+- [x] cada card pode ser responsivo contendo o proprio sistema
 de crud nele ou pode criar uma tela apenas para edicao dessa tarefa
 
 ## <a name="integraçãoBackend"> integração com o backend
 ##### [voltar ao topo](#sumario)
 - [ ] conectar sistema de login ao back
 - [ ] conectar sistema de cadastro ao back
-- [ ] conectar sistema de listagem de grupo ao back
-- [ ] conectar sistema de crud do grupo e tarefas com o back
+- [x] conectar sistema de listagem de grupo ao back
+- [x] conectar sistema de crud do grupo e tarefas com o back
 
 # <a name="formatoRotas"> Formato para algumas rotas
 ##### [voltar ao topo](#sumario)
 
 + **login**:
-  - login/
+  - user/login/
 + **cadastro**:
-  - cadastro/
+  - user/singup/
 + **grupos de tarefa**:
-  - grupos-de-tarefa/
+  - task-groups/
 + **grupo de tarefa especifico/tela do crud de grupos**:
-  - grupos-de-tarefa/**:id_grupo**/
+  - task-groups/**:idGrupo**/
 + **tela de crud tarefa especifica**(caso seja implementada):
-  - grupos-de-tarefa/tarefa/**:id_tarefa**/
+  - task/**:idTarefa**/
 
 
