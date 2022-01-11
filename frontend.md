@@ -24,16 +24,16 @@
 
 ## <a name="Criarrotas"> Criar rotas
 ##### [voltar ao topo](#sumario)
-- [ ] Criar rota para manipulção de usuarios
+- [x] Criar rota para manipulção de usuarios
 - [x] Criar rota para manipulção de grupos de tarefas
 - [x] Criar rota para manipulção de tarefas
-- [ ] Criar rota para manipulção de notificação
+- [x] Criar rota para manipulção de notificação
 
 ## <a name="Login"> Login
 ##### [voltar ao topo](#sumario)
-- [ ] criar tela de login
-- [ ] criar criar tela de cadastro
-- [ ] adicionar eventos(fetch de dados/etc)
+- [x] criar tela de login
+- [x] criar criar tela de cadastro
+- [x] adicionar eventos(fetch de dados/etc)
 
 ## <a name="Grupo"> Grupo de tarefa
 ##### [voltar ao topo](#sumario)
@@ -49,8 +49,8 @@ de crud nele ou pode criar uma tela apenas para edicao dessa tarefa
 
 ## <a name="integraçãoBackend"> integração com o backend
 ##### [voltar ao topo](#sumario)
-- [ ] conectar sistema de login ao back
-- [ ] conectar sistema de cadastro ao back
+- [x] conectar sistema de login ao back
+- [x] conectar sistema de cadastro ao back
 - [x] conectar sistema de listagem de grupo ao back
 - [x] conectar sistema de crud do grupo e tarefas com o back
 
