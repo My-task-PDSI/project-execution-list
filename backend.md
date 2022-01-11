@@ -13,7 +13,7 @@
 + [**Formato de devolução para algumas rotas**](#Formatodedevoluçãoparaalgumasrotas)
   - [**rota GET task-groups/all/**](#rotaGETgrupotarefasall)
   - [**rota GET task-groups/:id/**](#rotaGETgrupotarefasid)
-  - [**rota POST tarefas/add/**](#rotaPOSTtarefasadd)
+  - [**rota POST tasks/**](#rotaPOSTtarefasadd)
   - [**rota GET task-groups/all/**](#rotaGETgrupotarefasall)
 
 
@@ -21,40 +21,41 @@
 
 ## <a name="Configuraçãoinicialserver"><a> Configuração inicial server 
 ##### [voltar ao topo](#sumario)
-+ [X] Criar o servidor( apenas o basico para execução)
-+ [ ] Criar rotas para teste de funcionamento
++ [x] Criar o servidor( apenas o basico para execução)
++ [x] Criar rotas para teste de funcionamento
 
 ## <a name="Configuraçãoinicialdatabase"> Configuração inicial database
 ##### [voltar ao topo](#sumario)
-+ [X] Criar banco de dados
-+ [X] Conectar banco de dados
++ [x] Criar banco de dados
++ [x] Conectar banco de dados
 
 ## <a name="Criartabelas"> Criar tabelas
 ##### [voltar ao topo](#sumario)
-- [X] Criar tabela Usuario
-- [X] Criar tabela Grupo de tarefa
-- [X] Criar tabela Tarefa
-- [X] Criar tabela Notificação( opcional , pode ficar por ultimo)
+- [x] Criar tabela Usuario
+- [x] Criar tabela Grupo de tarefa
+- [x] Criar tabela Tarefa
+- [x] Criar tabela Notificação( opcional , pode ficar por ultimo)
 
 ## <a name="Criaçãodasrotasiniciais"> Criação das rotas iniciais
 ##### [voltar ao topo](#sumario)
 - [x] Criar rota para manipulção de usuarios
 - [x] Criar rota para manipulção de grupos de tarefas
 - [x] Criar rota para manipulção de tarefas
-- [ ] Criar rota para manipulção de notificação
+- [x] Criar rota para manipulção de notificação
 
 ## <a name="Rotausuario"> Rota usuario
 ##### [voltar ao topo](#sumario)
-- [X] criar crud para usuario
+- [x] criar crud para usuario
 
 ## <a name="RotaGrupodetarefa"> Rota Grupo de tarefa
 ##### [voltar ao topo](#sumario)
 - [x] criar crud para grupo de tarefas
-- [ ] criar rota que devolve todos os grupos de um usuario
-- [ ] criar rota que devolve um grupo e todas suas tarefas
+- [x] criar rota que devolve todos os grupos de um usuario
+- [x] criar rota que devolve um grupo
 
 ## <a name="RotaTarefa"> Rota Tarefa
 ##### [voltar ao topo](#sumario)
+- [x] criar rota que devolve todas suas tarefas de um grupo
 - [x] criar crud para tarefa
 
 # <a name="Formatodedevoluçãoparaalgumasrotas"> Formato de devolução para algumas rotas
@@ -96,7 +97,6 @@ retorna:
 
 ```json
 {
-    "grupo": "{...info_grupo}",
     "tarefas": [
         "{...info_tarefa_1}",
         "{...info_tarefa_2}",
@@ -105,7 +105,7 @@ retorna:
 }
 ```
 
-## <a name="rotaPOSTtarefasadd"> rota POST tarefas/add/
+## <a name="rotaPOSTtarefasadd"> rota POST tasks/
 ##### [voltar ao topo](#sumario)
 recebe:
 
@@ -117,7 +117,6 @@ recebe:
 ```json
 {
     "body": {
-        "id_grupo":"id",
         "tarefa":"{...info_tarefa}",
     }
 }
